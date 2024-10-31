@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Bebas+Neue&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="src/style.css" />
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <title>My weather application</title>
+</head>
+
+<body>
+    <section class="container">
+        <header>
+            <form id="search-city">
+                <input type="search" id="enter-city" placeholder="Enter a city.." required class="text-box" />
+                <input type="submit" value="Search" class="button" />
+            </form>
+        </header>
+        <main>
+            <hr>
+            <div class="current-weather">
+                <div>
+                    <h1 id="current-city">Paris</h1>
+                    <p>
+                        <span id="current-time">Saturday 15:32</span>, moderate rain <br />
+                        Humidity: <strong>87%</strong>, Wind: <strong>7.2km/h</strong>
+                    </p>
+                </div>
+                <div class="temperature">☀️ 14°C</div>
+            </div>
+            <hr>
+        </main>
+        <footer>
+            <p>
+                This project was coded by
+                <a href="#" target="_blank">Emma Bibby</a> and is
+                <a href="#" target="_blank"> on GitHub</a> and
+                <a href="#" target="_blank">hosted on Netlify</a>
+            </p>
+    </section>
+    <script src="src/script.js">
+    </script>
+    </footer>
+</body>
+
+</html>
