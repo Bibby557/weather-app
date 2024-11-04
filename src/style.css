@@ -4,4 +4,15 @@ body {
 
 h1 {
   color: darkslategrey;
+  font-family: "Bebas Neue", system-ui;
+  font-size: 48px;
+  padding-left: 20px;
+}
+.app-body {
+  background-color: white;
+  max-width: 600px;
+  margin: 45px auto;
+  padding: 30px;
+  box-shadow: 0 30px 50px rgba(65, 50, 100, 0.08);
+  border-radius: 20px;
 }
