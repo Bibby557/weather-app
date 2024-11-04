@@ -51,12 +51,15 @@ main {
 .weather-app-details {
   font-size: 16px;
   line-height: 24px;
+  padding-left: 20px;
+  padding-bottom: 15px;
 }
 .weather-app-details strong {
   color: #07738e;
 }
 .weather-app-temp {
   padding-top: 30px;
+  padding-right: 20px;
   display: flex;
 }
 .temp-value {
