@@ -8,6 +8,9 @@ h1 {
   font-size: 48px;
   padding-left: 20px;
 }
+a {
+  color: #07738e;
+}
 .app-body {
   background-color: white;
   max-width: 600px;
@@ -15,6 +18,10 @@ h1 {
   padding: 30px;
   box-shadow: 0 30px 50px rgba(65, 50, 100, 0.08);
   border-radius: 20px;
+}
+header {
+  border-bottom: 1px solid #a8e3f1;
+  padding: 0 0 30px;
 }
 .search-input {
   background-color: #eff7f9;
@@ -32,4 +39,11 @@ h1 {
   color: #eff7f9;
   margin-left: 5px;
   font-size: 16px;
+}
+footer {
+  border-top: 1px solid #a8e3f1;
+  padding: 30px 0 0 0;
+  text-align: center;
+  font-size: 12px;
+  color: rgba(0, 0, 0, 0.6);
 }
