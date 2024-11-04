@@ -7,6 +7,8 @@ h1 {
   font-family: "Bebas Neue", system-ui;
   font-size: 48px;
   padding-left: 20px;
+  padding-top: 30px;
+  margin: 0;
 }
 a {
   color: #07738e;
@@ -39,6 +41,37 @@ header {
   color: #eff7f9;
   margin-left: 5px;
   font-size: 16px;
+}
+main {
+}
+.weather-app-data {
+  display: flex;
+  justify-content: space-between;
+}
+.weather-app-details {
+  font-size: 16px;
+  line-height: 24px;
+}
+.weather-app-details strong {
+  color: #07738e;
+}
+.weather-app-temp {
+  padding-top: 30px;
+  display: flex;
+}
+.temp-value {
+  font-family: "Bebas Neue", system-ui;
+  font-size: 88px;
+  font-weight: bold;
+  margin-left: 10px;
+}
+.weather-icon {
+  font-size: 44px;
+  margin-top: 22px;
+}
+.weather-metric {
+  margin-top: 15px;
+  font-size: 28px;
 }
 footer {
   border-top: 1px solid #a8e3f1;
