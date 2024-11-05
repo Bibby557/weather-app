@@ -16,15 +16,15 @@
 <body>
     <div class="app-body">
         <header>
-            <form action="search">
-                <input type="text" placeholder="Enter a city..." class="search-input" required />
+            <form action="search" id="search-form">
+                <input type="text" placeholder="Enter a city..." class="search-input" id="city-input" required />
                 <input type="submit" value="search" class="search-button" />
             </form>
         </header>
         <main>
             <div class="weather-app-data">
                 <div>
-                    <h1 class="weather-app-city">City Name</h1>
+                    <h1 class="weather-app-city" id="searched-city">City Name</h1>
                     <p class="weather-app-details">Monday 14:41, cloudy
                         <br>
                         Humidity: <strong>40%</strong>, Wind: <strong>6km/h</strong>
@@ -37,11 +37,14 @@
                 </div>
             </div>
         </main>
+        <footer>
+            Coded by <a href="https://github.com/Bibby557">Emma Bibby</a>, <a
+                href="https://github.com/Bibby557/weather-app">is
+                open sourced on GitHub</a> and <a href="https://emma-weather-app-project.netlify.app/"> hosted on
+                Netlify.</a>
+        </footer>
+    </div>
+    <script src="src/script.js"></script>
 </body>
-<footer>
-    Coded by <a href="https://github.com/Bibby557">Emma Bibby</a>, <a href="https://github.com/Bibby557/weather-app">is
-        open sourced on GitHub</a> and <a href="https://emma-weather-app-project.netlify.app/"> hosted on Netlify.</a>
-</footer>
-</div>
 
 </html>
