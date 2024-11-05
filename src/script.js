@@ -29,6 +29,9 @@ function updateWeather(response) {
   let windElement = document.querySelector("#wind");
   let timeElement = document.querySelector("#time");
   let date = new Date(response.data.time * 1000);
+  let icon = document.querySelector("#icon");
+
+  icon.innerHTML = `<img src = "${response.data.condition.icon_url}" class= "weather-icon" alt="weather-icon"/>`;
 
   temperatureElement.innerHTML = Math.round(temperature);
   cityElement.innerHTML = response.data.city;
