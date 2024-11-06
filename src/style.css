@@ -41,8 +41,6 @@ header {
   margin-left: 5px;
   font-size: 16px;
 }
-main {
-}
 .weather-app-data {
   display: flex;
   justify-content: space-between;
