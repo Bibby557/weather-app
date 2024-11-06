@@ -1,7 +1,6 @@
 body {
   background-color: #eff7f9;
 }
-
 h1 {
   color: darkslategrey;
   font-family: "Bebas Neue", system-ui;
@@ -76,6 +75,33 @@ main {
 .weather-metric {
   margin-top: 15px;
   font-size: 28px;
+}
+.forecast {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10px;
+  margin-bottom: 40px;
+}
+.forecast-date {
+  text-align: center;
+  color: darkslategray;
+  font-size: 16px;
+  line-height: 20px;
+  font-family: "Bebas Neue", system-ui;
+}
+.forecast-icon {
+  font-size: 48px;
+  text-align: center;
+}
+.forecast-temps {
+  text-align: center;
+  color: #07738e;
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+.forecast-temp-each {
+  padding: 0 5px;
 }
 footer {
   border-top: 1px solid #a8e3f1;
