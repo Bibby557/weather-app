@@ -67,7 +67,6 @@ header {
 }
 .weather-icon {
   width: 88px;
-  height: 88px;
   padding-right: 5px;
 }
 .weather-metric {
@@ -88,8 +87,10 @@ header {
   font-family: "Bebas Neue", system-ui;
 }
 .forecast-icon {
-  font-size: 48px;
-  text-align: center;
+  width: 88px;
+  height: 88px;
+  display: block;
+  margin: 0 auto;
 }
 .forecast-temps {
   text-align: center;
