@@ -1,6 +1,6 @@
 body {
   background: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/149/684/original/weather_app.png?1730975357");
-  background-size: 100%;
+  background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
   background-color: #eff7f9;
